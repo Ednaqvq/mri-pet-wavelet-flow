@@ -1,0 +1,175 @@
+{
+  "version": "v1.0.0",
+  "weights": [
+    {
+      "cohort": "ADNI",
+      "seed": 42,
+      "asset": "ADNI_seed42.tar.gz",
+      "bytes": 218155793,
+      "sha256": "029c5ed7a6cd8e64ce6a48c837a6acd4a3186152b0a28dbd65101cef2685fbc8",
+      "files": {
+        "anchor.pt": {
+          "sha256": "b31d9145153b9170cb7494414fc349a757147aa3941f7c9b887e340d0d6b2aeb",
+          "bytes": 218857029
+        },
+        "residual.pt": {
+          "sha256": "a321666639341fb564e40c5aed0d7edcf699cad9a88aab3461b9ee76617bafc3",
+          "bytes": 16363891
+        }
+      }
+    },
+    {
+      "cohort": "ADNI",
+      "seed": 2026,
+      "asset": "ADNI_seed2026.tar.gz",
+      "bytes": 218237203,
+      "sha256": "3be02f53b7c689375f6e06149c1f499601be17646895a72c56517daa301098f4",
+      "files": {
+        "anchor.pt": {
+          "sha256": "81a900c3d42f83e1b8852ebf35cb9d5d9adb874d9753ce75f6183392c80c0898",
+          "bytes": 218857029
+        },
+        "residual.pt": {
+          "sha256": "c7508326a705b6f279b16e57e65e599ffcb2c38bbe81dbb4c0109aac61be2de4",
+          "bytes": 16363891
+        }
+      }
+    },
+    {
+      "cohort": "ADNI",
+      "seed": 3407,
+      "asset": "ADNI_seed3407.tar.gz",
+      "bytes": 218314702,
+      "sha256": "f9aed951a32713ce53812299fd5b09e64e52bb05b50724095a71ebb6726b58e8",
+      "files": {
+        "anchor.pt": {
+          "sha256": "4ec50f7276ef47c9009836beadf6e47c7073b09714172a556febfb232077f276",
+          "bytes": 218857029
+        },
+        "residual.pt": {
+          "sha256": "931ddc57bbe738e4d32861f215acd7968b224d8748634bb58ba9f20d15f746aa",
+          "bytes": 16363891
+        }
+      }
+    },
+    {
+      "cohort": "ADNI",
+      "seed": 1234,
+      "asset": "ADNI_seed1234.tar.gz",
+      "bytes": 218249466,
+      "sha256": "fbd8418f031210ff729ea9031467ffccfd17aeabbbc80c9f29369a5b9f04745a",
+      "files": {
+        "anchor.pt": {
+          "sha256": "4676dd7d9c4f940190af4245104e8f14d7efa1ddc2096f5f93b7dca0440feee9",
+          "bytes": 218857029
+        },
+        "residual.pt": {
+          "sha256": "20410baa143bb7558bf5ae3c0e010a72965b1ec2c0f2c89bf74a45a5dca8735d",
+          "bytes": 16363891
+        }
+      }
+    },
+    {
+      "cohort": "ADNI",
+      "seed": 5678,
+      "asset": "ADNI_seed5678.tar.gz",
+      "bytes": 218298830,
+      "sha256": "d2aedab0acf48615cadc3a321cfe122f2f2ca5639b2899bec6d3ded8fac64559",
+      "files": {
+        "anchor.pt": {
+          "sha256": "1b1c4b2b088c1b13cb584b9379d591575072038a54fed6a1a452aa4b5f33c266",
+          "bytes": 218857029
+        },
+        "residual.pt": {
+          "sha256": "d740c196d4715ec2775a529c4ac27aa274eb9c1bf7546f7ff14414c7fc15a3f9",
+          "bytes": 16363891
+        }
+      }
+    },
+    {
+      "cohort": "NACC",
+      "seed": 42,
+      "asset": "NACC_seed42.tar.gz",
+      "bytes": 218070220,
+      "sha256": "b819dee4b08a0d76ebfdd4751ea530931c1f3b5a65edeb69f02123b65f61f02d",
+      "files": {
+        "anchor.pt": {
+          "sha256": "bfa9910a7fe49ed467a2e3b32ccfe3f922cba6305ca1c7e4f396cb635c78d14c",
+          "bytes": 218857029
+        },
+        "residual.pt": {
+          "sha256": "b836785323a100f0ae90cf5c8274240d2705905ab03aa8ab1af73cbf63a9b81b",
+          "bytes": 16363891
+        }
+      }
+    },
+    {
+      "cohort": "NACC",
+      "seed": 2026,
+      "asset": "NACC_seed2026.tar.gz",
+      "bytes": 218088538,
+      "sha256": "dfa75d32421fec2cfc2b1f1c785cdfa7270bd6967fb20c407544254dda1d6b2e",
+      "files": {
+        "anchor.pt": {
+          "sha256": "70a0bcd08390631738673c912ee376e77be69a32fbfcd6d7133f954eb083ea92",
+          "bytes": 218857029
+        },
+        "residual.pt": {
+          "sha256": "06064e55efbef1aa121d091bda6fd59c5c22b1265008bce64c84b6c38f5ab351",
+          "bytes": 16363891
+        }
+      }
+    },
+    {
+      "cohort": "NACC",
+      "seed": 3407,
+      "asset": "NACC_seed3407.tar.gz",
+      "bytes": 217995862,
+      "sha256": "3fae642cb77d373d76e5d91ac50902798671a280ca38d6936064224e6053cbab",
+      "files": {
+        "anchor.pt": {
+          "sha256": "418b00788074ef223a03f24f99950a4b2b7be8e94d740861fc79a374829712dd",
+          "bytes": 218857029
+        },
+        "residual.pt": {
+          "sha256": "191051e8fa939164d2fa2a57b4c93447987715f73214565ee03ee55a692aae42",
+          "bytes": 16363891
+        }
+      }
+    },
+    {
+      "cohort": "NACC",
+      "seed": 1234,
+      "asset": "NACC_seed1234.tar.gz",
+      "bytes": 218055124,
+      "sha256": "30d3774ae66f73e3a3fc65de87b698670108250c3d41e16fe379d4b8dee79b26",
+      "files": {
+        "anchor.pt": {
+          "sha256": "93c5a1281c67efbcf71a95ef7835ee6fc921a06c61eb8aef26789f79a9cf14f3",
+          "bytes": 218857029
+        },
+        "residual.pt": {
+          "sha256": "1788aed5a35578eca95ddcf647ab0eb88fe029cffad5864c92e6447ba3995df9",
+          "bytes": 16363891
+        }
+      }
+    },
+    {
+      "cohort": "NACC",
+      "seed": 5678,
+      "asset": "NACC_seed5678.tar.gz",
+      "bytes": 218067936,
+      "sha256": "60546b0abd25ad36055dc64c49a1a458dec7ac5d63df8512ee8795671b78cd82",
+      "files": {
+        "anchor.pt": {
+          "sha256": "ae80448f27140000a2913c569038a6e087965819a8aeb2ce806c9ea12d5c217a",
+          "bytes": 218857029
+        },
+        "residual.pt": {
+          "sha256": "265a7d225c232ee56b2520224a0f0ca5520acfd3d8a3ad70615a3a97964a1b85",
+          "bytes": 16363891
+        }
+      }
+    }
+  ]
+}

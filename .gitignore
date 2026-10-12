@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+weights/
+runs/
+campaign/
+*.pt
+*.nii
+*.nii.gz
+*.log

@@ -1,0 +1,246 @@
+{
+  "haar_roundtrip_max_error": 9.5367431640625e-07,
+  "support_contract": {
+    "foreground_bitwise_unchanged": true,
+    "background_exact_zero": true,
+    "idempotent": true,
+    "gradient_support_correct": true,
+    "no_target_argument": true
+  },
+  "checkpoints": [
+    {
+      "cohort": "ADNI",
+      "seed": 42,
+      "anchor_epoch": 33,
+      "residual_epoch": 16,
+      "strict_loading": true,
+      "all_model_tensors_exact": true,
+      "finite_parameters": true,
+      "real_mri_inference": true,
+      "output_max_abs_difference": 0.0,
+      "background_exact_zero": true,
+      "shape": [
+        1,
+        1,
+        160,
+        196,
+        160
+      ],
+      "nifti_writer_passed": true
+    },
+    {
+      "cohort": "ADNI",
+      "seed": 2026,
+      "anchor_epoch": 50,
+      "residual_epoch": 2,
+      "strict_loading": true,
+      "all_model_tensors_exact": true,
+      "finite_parameters": true,
+      "real_mri_inference": true,
+      "output_max_abs_difference": 0.0,
+      "background_exact_zero": true,
+      "shape": [
+        1,
+        1,
+        160,
+        196,
+        160
+      ],
+      "nifti_writer_passed": null
+    },
+    {
+      "cohort": "ADNI",
+      "seed": 3407,
+      "anchor_epoch": 52,
+      "residual_epoch": 12,
+      "strict_loading": true,
+      "all_model_tensors_exact": true,
+      "finite_parameters": true,
+      "real_mri_inference": true,
+      "output_max_abs_difference": 0.0,
+      "background_exact_zero": true,
+      "shape": [
+        1,
+        1,
+        160,
+        196,
+        160
+      ],
+      "nifti_writer_passed": null
+    },
+    {
+      "cohort": "ADNI",
+      "seed": 1234,
+      "anchor_epoch": 59,
+      "residual_epoch": 8,
+      "strict_loading": true,
+      "all_model_tensors_exact": true,
+      "finite_parameters": true,
+      "real_mri_inference": true,
+      "output_max_abs_difference": 0.0,
+      "background_exact_zero": true,
+      "shape": [
+        1,
+        1,
+        160,
+        196,
+        160
+      ],
+      "nifti_writer_passed": null
+    },
+    {
+      "cohort": "ADNI",
+      "seed": 5678,
+      "anchor_epoch": 50,
+      "residual_epoch": 8,
+      "strict_loading": true,
+      "all_model_tensors_exact": true,
+      "finite_parameters": true,
+      "real_mri_inference": true,
+      "output_max_abs_difference": 0.0,
+      "background_exact_zero": true,
+      "shape": [
+        1,
+        1,
+        160,
+        196,
+        160
+      ],
+      "nifti_writer_passed": null
+    },
+    {
+      "cohort": "NACC",
+      "seed": 42,
+      "anchor_epoch": 73,
+      "residual_epoch": 24,
+      "strict_loading": true,
+      "all_model_tensors_exact": true,
+      "finite_parameters": true,
+      "real_mri_inference": true,
+      "output_max_abs_difference": 0.0,
+      "background_exact_zero": true,
+      "shape": [
+        1,
+        1,
+        160,
+        196,
+        160
+      ],
+      "nifti_writer_passed": true
+    },
+    {
+      "cohort": "NACC",
+      "seed": 2026,
+      "anchor_epoch": 60,
+      "residual_epoch": 30,
+      "strict_loading": true,
+      "all_model_tensors_exact": true,
+      "finite_parameters": true,
+      "real_mri_inference": true,
+      "output_max_abs_difference": 0.0,
+      "background_exact_zero": true,
+      "shape": [
+        1,
+        1,
+        160,
+        196,
+        160
+      ],
+      "nifti_writer_passed": null
+    },
+    {
+      "cohort": "NACC",
+      "seed": 3407,
+      "anchor_epoch": 64,
+      "residual_epoch": 22,
+      "strict_loading": true,
+      "all_model_tensors_exact": true,
+      "finite_parameters": true,
+      "real_mri_inference": true,
+      "output_max_abs_difference": 0.0,
+      "background_exact_zero": true,
+      "shape": [
+        1,
+        1,
+        160,
+        196,
+        160
+      ],
+      "nifti_writer_passed": null
+    },
+    {
+      "cohort": "NACC",
+      "seed": 1234,
+      "anchor_epoch": 82,
+      "residual_epoch": 30,
+      "strict_loading": true,
+      "all_model_tensors_exact": true,
+      "finite_parameters": true,
+      "real_mri_inference": true,
+      "output_max_abs_difference": 0.0,
+      "background_exact_zero": true,
+      "shape": [
+        1,
+        1,
+        160,
+        196,
+        160
+      ],
+      "nifti_writer_passed": null
+    },
+    {
+      "cohort": "NACC",
+      "seed": 5678,
+      "anchor_epoch": 59,
+      "residual_epoch": 30,
+      "strict_loading": true,
+      "all_model_tensors_exact": true,
+      "finite_parameters": true,
+      "real_mri_inference": true,
+      "output_max_abs_difference": 0.0,
+      "background_exact_zero": true,
+      "shape": [
+        1,
+        1,
+        160,
+        196,
+        160
+      ],
+      "nifti_writer_passed": null
+    }
+  ],
+  "runtime": {
+    "python": "3.10.8",
+    "torch": "2.10.0",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scipy": "1.15.3",
+    "nibabel": "5.3.3",
+    "cpu_threads": 8,
+    "num_workers": 0,
+    "deterministic_inference": true
+  },
+  "training_smoke": {
+    "passed": true,
+    "scans_per_partition": 2,
+    "epochs_per_stage": 1,
+    "stages": [
+      "MRI AAE",
+      "PET AE",
+      "train-only PET latent statistics",
+      "joint Coarse and latent Flow",
+      "frozen Coarse and fresh latent Flow",
+      "anchor cache and train-only thresholds",
+      "F wavelet residual Flow"
+    ],
+    "joint_freeze_check": true,
+    "frozen_freeze_check": true,
+    "public_export_passed": true,
+    "public_evaluation_scans": 2
+  },
+  "core_tests": {
+    "count": 5,
+    "passed": true
+  },
+  "scope": "Release validation: exact tensors, deterministic MRI inference equivalence, finite forward/backward and stage integration"
+}

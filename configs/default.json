@@ -1,0 +1,105 @@
+{
+  "seed": 42,
+  "output_dir": "runs/example/ae",
+  "data": {
+    "dataset_root": "/path/to/dataset",
+    "prepared_dir": "runs/example/prepared",
+    "cache_dir": "runs/example/image_cache",
+    "spatial_size": [
+      160,
+      196,
+      160
+    ],
+    "verify_geometry": true,
+    "clinical_features": [],
+    "clinical_csv": null
+  },
+  "model": {
+    "structural_downsample": "strided_conv",
+    "latent_channels": 64,
+    "ae_base": 32,
+    "unet_channels": [
+      64,
+      128,
+      256,
+      384
+    ],
+    "time_dim": 512,
+    "attention_heads": 6,
+    "dropout": 0.1,
+    "checkpointing": true,
+    "clinical_dim": 0
+  },
+  "loss": {
+    "image": 1,
+    "ssim": 0.2,
+    "gradient": 0,
+    "aae": 0.001,
+    "latent": 0.5,
+    "cosine": 0.1,
+    "data_range": 2.0,
+    "mri_data_range": 2,
+    "aux_min_alpha": 0.1
+  },
+  "training": {
+    "batch_size": 1,
+    "num_workers": 0,
+    "amp": true,
+    "accumulation_steps": 4,
+    "grad_clip": 1,
+    "weight_decay": 0.0001,
+    "patience": 30,
+    "epochs": {
+      "flow": 200,
+      "mri_aae": 100,
+      "pet_ae": 100
+    },
+    "lr": {
+      "flow": 0.0001,
+      "mri_aae": 0.0001,
+      "pet_ae": 0.0001
+    },
+    "log_every": 10,
+    "lr_patience": 5,
+    "min_delta": 1e-05
+  },
+  "runtime": {
+    "activation_checkpointing": true,
+    "cpu_threads": 8,
+    "precision": "bf16"
+  },
+  "flow": {
+    "init_checkpoint": "runs/example/ae_bundle.pt",
+    "source_sigma": 0.0,
+    "train_steps": 2,
+    "train_solver": "euler",
+    "sample_steps": 8,
+    "sample_solver": "heun",
+    "endpoint_weight": 0.5,
+    "pet_weight": 0.1,
+    "path_weight": 0.0,
+    "path_margin": 0.0,
+    "mri_path_weight": 0.0
+  },
+  "fusion_flow": {
+    "use_coarse": true,
+    "freeze_coarse": false,
+    "coarse_checkpoint": null,
+    "source": "mri_downsample+aae",
+    "fusion": "concat_1x1",
+    "anchor_probability": 0.25,
+    "std_floor": 0.001
+  },
+  "conditioning": "mri_only",
+  "initialization": "random_source_only_all_stages",
+  "diffusion": {
+    "steps": 1000,
+    "prediction": "epsilon",
+    "residual_scale": 1
+  },
+  "sampling": {
+    "steps": 50,
+    "timestep_spacing": "leading"
+  },
+  "cohort": "ADNI"
+}
