@@ -1,0 +1,60 @@
+{
+  "ADNI": {
+    "metadata_sha256": "fc6dd441414874ea2492008fcacf7faa1ba795617c1b91d951c6459c155640cf",
+    "split_sha256": "14e52acd3dd1a4b3abb1b8e2537c85368eb41905a1cf64a9c3f41284558d98ba",
+    "rows": 1265,
+    "exact_metadata_projection": true,
+    "checkpoint_seeds_verified": [
+      42,
+      2026,
+      3407,
+      1234,
+      5678
+    ],
+    "partitions": {
+      "train": {
+        "scans": 913,
+        "subjects": 442
+      },
+      "validation": {
+        "scans": 229,
+        "subjects": 111
+      },
+      "test": {
+        "scans": 123,
+        "subjects": 45
+      }
+    },
+    "subjects_disjoint": true,
+    "unique_sample_ids": true
+  },
+  "NACC": {
+    "metadata_sha256": "ef33015a512bfad987b4a2bba82d8be728a5f00ce46fdb1ae955f2832442bf9d",
+    "split_sha256": "a264f9e7a0b51188c8e4983fb5a4af62b03080bb99561892124c300e94eabc98",
+    "rows": 364,
+    "exact_metadata_projection": true,
+    "checkpoint_seeds_verified": [
+      42,
+      2026,
+      3407,
+      1234,
+      5678
+    ],
+    "partitions": {
+      "train": {
+        "scans": 255,
+        "subjects": 255
+      },
+      "validation": {
+        "scans": 73,
+        "subjects": 73
+      },
+      "test": {
+        "scans": 36,
+        "subjects": 36
+      }
+    },
+    "subjects_disjoint": true,
+    "unique_sample_ids": true
+  }
+}
